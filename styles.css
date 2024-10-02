@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-image {
+    max-width: 80%;
+    height: auto;
+}
+
+.text {
+    font-size: 5rem;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 2s infinite;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0%; }
+    100% { background-position: 100%; }
+}
