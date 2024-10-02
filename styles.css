@@ -30,3 +30,18 @@ body {
     0% { background-position: 0%; }
     100% { background-position: 100%; }
 }
+
+button {
+    padding: 10px 20px; /* ボタンの内側の余白 */
+    font-size: 1.5rem; /* フォントサイズ */
+    color: white; /* 文字色 */
+    background-color: blue; /* 背景色 */
+    border: none; /* 枠線なし */
+    border-radius: 5px; /* 角を丸く */
+    cursor: pointer; /* カーソルをポインタに */
+    transition: transform 0.3s; /* アニメーションの設定 */
+}
+
+button:hover {
+    transform: scale(1.1); /* カーソルを合わせた時に10%大きくする */
+}
