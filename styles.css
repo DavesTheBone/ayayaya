@@ -19,7 +19,7 @@ body {
 }
 
 .text {
-    font-size: 2rem;
+    font-size: 0.3rem;
     background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     -webkit-background-clip: text;
     color: transparent;
