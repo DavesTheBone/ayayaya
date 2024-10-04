@@ -43,5 +43,5 @@ button {
 }
 
 button:hover {
-    transform: scale(0.2); /* カーソルを合わせた時に10%大きくする */
+    transform: scale(1.001); /* カーソルを合わせた時に10%大きくする */
 }
