@@ -32,16 +32,16 @@ body {
 }
 
 button {
-    padding: 10px 20px; /* ボタンの内側の余白 */
-    font-size: 1.5rem; /* フォントサイズ */
+    padding: 5px 15px; /* ボタンの内側の余白 */
+    font-size: 1rem; /* フォントサイズ */
     color: black; /* 文字色 */
     background-color: white; /* 背景色 */
     border: none; /* 枠線なし */
-    border-radius: 5px; /* 角を丸く */
+    border-radius: 2.4px; /* 角を丸く */
     cursor: pointer; /* カーソルをポインタに */
     transition: transform 0.3s; /* アニメーションの設定 */
 }
 
 button:hover {
-    transform: scale(1.1); /* カーソルを合わせた時に10%大きくする */
+    transform: scale(0.2); /* カーソルを合わせた時に10%大きくする */
 }
